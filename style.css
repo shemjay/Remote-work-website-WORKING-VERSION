@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Epilogue', 'sans-serif';
+}
+
+.body-container {
+  background-color: hsl(0, 0%, 98%);
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-flex li {
+  margin-right: auto;
+  display: inline-block;
+  padding: 1em;
+}
+
+.navbar-flex a {
+  color: hsl(0, 0%, 41%);
+  text-decoration: none;
+}
+
+.navbar-flex a:hover {
+  color: hsl(0, 0%, 8%);
+}
+
+.navbar li {
+  list-style-type: none;
+}
+
+.navbar img {
+  padding: 1.5em 1em 1em 2em;
+}
+
+.navbar-btn {
+  margin-left: auto;
+  padding: 1.5em;
+}
+
+.dropdown {
+  border-radius: 10px;
+  position: absolute;
+  display: none;
+  background: #FFF;
+}
+
+.dropdown-content {
+  border-radius: 10px;
+  min-height: 1em;
+  margin-top: 1em;
+  box-shadow: 0px 8px 16px 0px hsla(0, 0%, 0%, 0.315);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.dropdown-content a {
+  color: hsl(0, 0%, 8%);
+  padding: 1em;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content li {
+    font-size: 1rem;
+    padding: 0;
+    width: 100%;
+}
+
+.drop-img {
+    margin-right: 0.5em;
+}
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+    background-color: hsl(0, 0%, 85%);
+  }
+
+.dropdown-arrow {
+  color: hsl(0, 0%, 41%);
+  outline: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+
+.dropdown-arrow:hover {
+  color: hsl(0, 0%, 8%);
+}
+
+.dropdown-links {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: hsl(0, 0%, 8%);
+}
+
+.dropdown-links:hover {
+  background-color: hsl(0, 0%, 98%);
+}
+
+.show {
+  display: block !important;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+
+/* Styles for both buttons in the navbar */
+
+.btn-primary {
+  color: hsl(0, 0%, 41%);
+  outline: none;
+  padding: 0.5em;
+  margin-left: 1em;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  color: hsl(0, 0%, 8%);
+}
+
+
+/* Styles for login button in the navbar */
+
+#login-btn {
+  border: none;
+  background: none;
+}
+
+
+/* Styles for register button in the navbar */
+
+#register-btn {
+  padding: 0.8em;
+  border-radius: 10px;
+  background: none;
+  border-color: hsl(0, 0%, 41%);
+  border-width: 1px;
+}
+
+.register-btn:hover {
+  border-color: hsl(0, 0%, 8%);
+}
+
+/* Container for the whole body content and hero image*/
+.main-content-wrapper {
+    margin: auto;
+    margin-top: 1em;
+    padding-bottom: 3em;
+    height: 80%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container for the body copy and SVG images*/
+.body-content-wrapper {
+    margin-top: auto;
+    height: 85%;
+    width: 100%;
+}
+
+/* Container for the hero image */
+.hero-image-wrapper {
+    width: 70%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Styles the hero image */
+.hero-image-wrapper img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Styles the heading in the body */
+.title {
+    font-weight: 700;
+    color: hsl(0, 0%, 8%);
+    font-size: 4rem;
+    padding-bottom: 0.5em;
+}
+
+/* Styles the body paragraph */
+.body-copy {
+    font-weight: 500;
+    color: hsl(0, 0%, 41%);
+    font-size: 1rem;
+    padding-bottom: 2.5em;
+}
+
+/* Styles button in body copy */
+.btn-btn-secondary {
+    padding: 1em;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 98%);
+    outline: none;
+    border-radius: 10px;
+    margin-bottom: 5em;
+    border: none;
+    border: 1px solid hsl(0, 0%, 8%);
+}
+
+/* Styles button in body hover effect */
+.btn-btn-secondary:hover {
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 8%);
+    
+}
+/* Container for body logo svgs */
+.main-content-logos {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-logo {
+    width: 4em;
+    object-fit: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
